@@ -10,7 +10,6 @@
 		0524A31E25ED8A8000B0FDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A31D25ED8A8000B0FDB0 /* AppDelegate.swift */; };
 		0524A32525ED8A8000B0FDB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0524A32325ED8A8000B0FDB0 /* Main.storyboard */; };
 		0524A32A25ED8A8100B0FDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0524A32825ED8A8100B0FDB0 /* LaunchScreen.storyboard */; };
-		0524A33525ED8A8100B0FDB0 /* FitnessWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A33425ED8A8100B0FDB0 /* FitnessWikiTests.swift */; };
 		0524A35D25ED8AEC00B0FDB0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0524A35C25ED8AEC00B0FDB0 /* Localizable.strings */; };
 		0524A36525ED8B0200B0FDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0524A36425ED8B0200B0FDB0 /* Assets.xcassets */; };
 		0524A36D25ED8B0F00B0FDB0 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A36A25ED8B0F00B0FDB0 /* APICall.swift */; };
@@ -69,7 +68,6 @@
 		0524A32925ED8A8100B0FDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0524A32B25ED8A8100B0FDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0524A33025ED8A8100B0FDB0 /* FitnessWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0524A33425ED8A8100B0FDB0 /* FitnessWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWikiTests.swift; sourceTree = "<group>"; };
 		0524A33625ED8A8100B0FDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0524A35C25ED8AEC00B0FDB0 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		0524A36425ED8B0200B0FDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				0524A3CB25ED8BFF00B0FDB0 /* PagingTests */,
 				0524A3C825ED8BFF00B0FDB0 /* RequestMocking */,
 				0524A3CD25ED8BFF00B0FDB0 /* WebRepositoryTests */,
-				0524A33425ED8A8100B0FDB0 /* FitnessWikiTests.swift */,
 				0524A33625ED8A8100B0FDB0 /* Info.plist */,
 			);
 			path = FitnessWikiTests;
@@ -452,7 +449,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0524A33525ED8A8100B0FDB0 /* FitnessWikiTests.swift in Sources */,
 				0524A3E725ED8C1200B0FDB0 /* TestHelpers.swift in Sources */,
 				0524A3D225ED8BFF00B0FDB0 /* PagingTests.swift in Sources */,
 				0524A3D125ED8BFF00B0FDB0 /* RequestMocking.swift in Sources */,
