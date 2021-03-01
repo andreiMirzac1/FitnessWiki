@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  MyFitnessApp
+
+  Created by Andrei Mirzac on 23/12/2020.
+  
+*/
+
+"Profile.TabBar.title" = "Profile";
+"Logs.TabBar.title" = "Logs";
+"Workouts.TabBar.title" = "Workouts";
+"Exercises.TabBar.title" = "Exercises";

@@ -3,29 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0524A31E25ED8A8000B0FDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A31D25ED8A8000B0FDB0 /* AppDelegate.swift */; };
-		0524A32025ED8A8000B0FDB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A31F25ED8A8000B0FDB0 /* SceneDelegate.swift */; };
-		0524A32225ED8A8000B0FDB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A32125ED8A8000B0FDB0 /* ViewController.swift */; };
 		0524A32525ED8A8000B0FDB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0524A32325ED8A8000B0FDB0 /* Main.storyboard */; };
-		0524A32725ED8A8100B0FDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0524A32625ED8A8100B0FDB0 /* Assets.xcassets */; };
 		0524A32A25ED8A8100B0FDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0524A32825ED8A8100B0FDB0 /* LaunchScreen.storyboard */; };
 		0524A33525ED8A8100B0FDB0 /* FitnessWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A33425ED8A8100B0FDB0 /* FitnessWikiTests.swift */; };
-		0524A34025ED8A8100B0FDB0 /* FitnessWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A33F25ED8A8100B0FDB0 /* FitnessWikiUITests.swift */; };
+		0524A35D25ED8AEC00B0FDB0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0524A35C25ED8AEC00B0FDB0 /* Localizable.strings */; };
+		0524A36525ED8B0200B0FDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0524A36425ED8B0200B0FDB0 /* Assets.xcassets */; };
+		0524A36D25ED8B0F00B0FDB0 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A36A25ED8B0F00B0FDB0 /* APICall.swift */; };
+		0524A36E25ED8B0F00B0FDB0 /* WebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A36B25ED8B0F00B0FDB0 /* WebRepository.swift */; };
+		0524A36F25ED8B0F00B0FDB0 /* ExercisesWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A36C25ED8B0F00B0FDB0 /* ExercisesWebRepository.swift */; };
+		0524A38D25ED8B1900B0FDB0 /* ListingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37525ED8B1900B0FDB0 /* ListingData.swift */; };
+		0524A38E25ED8B1900B0FDB0 /* Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37625ED8B1900B0FDB0 /* Paging.swift */; };
+		0524A38F25ED8B1900B0FDB0 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37725ED8B1900B0FDB0 /* Exercise.swift */; };
+		0524A39025ED8B1900B0FDB0 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37825ED8B1900B0FDB0 /* Filter.swift */; };
+		0524A39125ED8B1900B0FDB0 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37925ED8B1900B0FDB0 /* PageData.swift */; };
+		0524A39225ED8B1900B0FDB0 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37A25ED8B1900B0FDB0 /* ExercisesViewController.swift */; };
+		0524A39325ED8B1900B0FDB0 /* FilterEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37D25ED8B1900B0FDB0 /* FilterEquipment.swift */; };
+		0524A39425ED8B1900B0FDB0 /* ExerciseViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37E25ED8B1900B0FDB0 /* ExerciseViewData.swift */; };
+		0524A39525ED8B1900B0FDB0 /* ExerciseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A37F25ED8B1900B0FDB0 /* ExerciseViewCell.swift */; };
+		0524A39625ED8B1900B0FDB0 /* SupplimentaryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38025ED8B1900B0FDB0 /* SupplimentaryViewCell.swift */; };
+		0524A39725ED8B1900B0FDB0 /* ExerciseListReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38225ED8B1900B0FDB0 /* ExerciseListReducer.swift */; };
+		0524A39825ED8B1900B0FDB0 /* ExerciseListAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38325ED8B1900B0FDB0 /* ExerciseListAction.swift */; };
+		0524A39925ED8B1900B0FDB0 /* ExercisesListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38425ED8B1900B0FDB0 /* ExercisesListState.swift */; };
+		0524A39A25ED8B1900B0FDB0 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38525ED8B1900B0FDB0 /* Store.swift */; };
+		0524A39B25ED8B1900B0FDB0 /* ExerciseListMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38625ED8B1900B0FDB0 /* ExerciseListMiddleware.swift */; };
+		0524A39C25ED8B1900B0FDB0 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38825ED8B1900B0FDB0 /* StringExtensions.swift */; };
+		0524A39D25ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38925ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift */; };
+		0524A39E25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38A25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift */; };
+		0524A39F25ED8B1900B0FDB0 /* NSLayoutContraintsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38B25ED8B1900B0FDB0 /* NSLayoutContraintsExtensions.swift */; };
+		0524A3A025ED8B1900B0FDB0 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38C25ED8B1900B0FDB0 /* Identifier.swift */; };
+		0524A3A825ED8B5900B0FDB0 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 0524A3A725ED8B5900B0FDB0 /* Nuke */; };
+		0524A3AE25ED8B7E00B0FDB0 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0524A3AD25ED8B7E00B0FDB0 /* ReSwift */; };
+		0524A3B425ED8B9A00B0FDB0 /* ReSwiftThunk in Frameworks */ = {isa = PBXBuildFile; productRef = 0524A3B325ED8B9A00B0FDB0 /* ReSwiftThunk */; };
+		0524A3D025ED8BFF00B0FDB0 /* MockedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3C925ED8BFF00B0FDB0 /* MockedResponse.swift */; };
+		0524A3D125ED8BFF00B0FDB0 /* RequestMocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3CA25ED8BFF00B0FDB0 /* RequestMocking.swift */; };
+		0524A3D225ED8BFF00B0FDB0 /* PagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3CC25ED8BFF00B0FDB0 /* PagingTests.swift */; };
+		0524A3D325ED8BFF00B0FDB0 /* TestWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3CE25ED8BFF00B0FDB0 /* TestWebRepository.swift */; };
+		0524A3D425ED8BFF00B0FDB0 /* WebRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3CF25ED8BFF00B0FDB0 /* WebRepositoryTests.swift */; };
+		0524A3E325ED8C1200B0FDB0 /* ExerciseListReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3DC25ED8C1200B0FDB0 /* ExerciseListReducer.swift */; };
+		0524A3E425ED8C1200B0FDB0 /* ExerciseRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3DE25ED8C1200B0FDB0 /* ExerciseRepositoryTests.swift */; };
+		0524A3E525ED8C1200B0FDB0 /* Mockdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3E025ED8C1200B0FDB0 /* Mockdata.swift */; };
+		0524A3E625ED8C1200B0FDB0 /* allExercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 0524A3E125ED8C1200B0FDB0 /* allExercises.json */; };
+		0524A3E725ED8C1200B0FDB0 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3E225ED8C1200B0FDB0 /* TestHelpers.swift */; };
+		0524A40625ED965300B0FDB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A40025ED965000B0FDB0 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0524A33125ED8A8100B0FDB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0524A31225ED8A8000B0FDB0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0524A31925ED8A8000B0FDB0;
-			remoteInfo = FitnessWiki;
-		};
-		0524A33C25ED8A8100B0FDB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0524A31225ED8A8000B0FDB0 /* Project object */;
 			proxyType = 1;
@@ -37,18 +65,48 @@
 /* Begin PBXFileReference section */
 		0524A31A25ED8A8000B0FDB0 /* FitnessWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0524A31D25ED8A8000B0FDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0524A31F25ED8A8000B0FDB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0524A32125ED8A8000B0FDB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0524A32425ED8A8000B0FDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0524A32625ED8A8100B0FDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0524A32925ED8A8100B0FDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0524A32B25ED8A8100B0FDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0524A33025ED8A8100B0FDB0 /* FitnessWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0524A33425ED8A8100B0FDB0 /* FitnessWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWikiTests.swift; sourceTree = "<group>"; };
 		0524A33625ED8A8100B0FDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0524A33B25ED8A8100B0FDB0 /* FitnessWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0524A33F25ED8A8100B0FDB0 /* FitnessWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWikiUITests.swift; sourceTree = "<group>"; };
-		0524A34125ED8A8100B0FDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0524A35C25ED8AEC00B0FDB0 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0524A36425ED8B0200B0FDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0524A36A25ED8B0F00B0FDB0 /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		0524A36B25ED8B0F00B0FDB0 /* WebRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRepository.swift; sourceTree = "<group>"; };
+		0524A36C25ED8B0F00B0FDB0 /* ExercisesWebRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesWebRepository.swift; sourceTree = "<group>"; };
+		0524A37525ED8B1900B0FDB0 /* ListingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingData.swift; sourceTree = "<group>"; };
+		0524A37625ED8B1900B0FDB0 /* Paging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paging.swift; sourceTree = "<group>"; };
+		0524A37725ED8B1900B0FDB0 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		0524A37825ED8B1900B0FDB0 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		0524A37925ED8B1900B0FDB0 /* PageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
+		0524A37A25ED8B1900B0FDB0 /* ExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		0524A37D25ED8B1900B0FDB0 /* FilterEquipment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterEquipment.swift; sourceTree = "<group>"; };
+		0524A37E25ED8B1900B0FDB0 /* ExerciseViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewData.swift; sourceTree = "<group>"; };
+		0524A37F25ED8B1900B0FDB0 /* ExerciseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewCell.swift; sourceTree = "<group>"; };
+		0524A38025ED8B1900B0FDB0 /* SupplimentaryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplimentaryViewCell.swift; sourceTree = "<group>"; };
+		0524A38225ED8B1900B0FDB0 /* ExerciseListReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListReducer.swift; sourceTree = "<group>"; };
+		0524A38325ED8B1900B0FDB0 /* ExerciseListAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListAction.swift; sourceTree = "<group>"; };
+		0524A38425ED8B1900B0FDB0 /* ExercisesListState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesListState.swift; sourceTree = "<group>"; };
+		0524A38525ED8B1900B0FDB0 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		0524A38625ED8B1900B0FDB0 /* ExerciseListMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListMiddleware.swift; sourceTree = "<group>"; };
+		0524A38825ED8B1900B0FDB0 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		0524A38925ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionReusableViewExtensions.swift; sourceTree = "<group>"; };
+		0524A38A25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		0524A38B25ED8B1900B0FDB0 /* NSLayoutContraintsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutContraintsExtensions.swift; sourceTree = "<group>"; };
+		0524A38C25ED8B1900B0FDB0 /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		0524A3C925ED8BFF00B0FDB0 /* MockedResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockedResponse.swift; sourceTree = "<group>"; };
+		0524A3CA25ED8BFF00B0FDB0 /* RequestMocking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestMocking.swift; sourceTree = "<group>"; };
+		0524A3CC25ED8BFF00B0FDB0 /* PagingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingTests.swift; sourceTree = "<group>"; };
+		0524A3CE25ED8BFF00B0FDB0 /* TestWebRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWebRepository.swift; sourceTree = "<group>"; };
+		0524A3CF25ED8BFF00B0FDB0 /* WebRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRepositoryTests.swift; sourceTree = "<group>"; };
+		0524A3DC25ED8C1200B0FDB0 /* ExerciseListReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListReducer.swift; sourceTree = "<group>"; };
+		0524A3DE25ED8C1200B0FDB0 /* ExerciseRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseRepositoryTests.swift; sourceTree = "<group>"; };
+		0524A3E025ED8C1200B0FDB0 /* Mockdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mockdata.swift; sourceTree = "<group>"; };
+		0524A3E125ED8C1200B0FDB0 /* allExercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allExercises.json; sourceTree = "<group>"; };
+		0524A3E225ED8C1200B0FDB0 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		0524A40025ED965000B0FDB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = FitnessWiki/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +114,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0524A3A825ED8B5900B0FDB0 /* Nuke in Frameworks */,
+				0524A3AE25ED8B7E00B0FDB0 /* ReSwift in Frameworks */,
+				0524A3B425ED8B9A00B0FDB0 /* ReSwiftThunk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0524A32D25ED8A8100B0FDB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0524A33825ED8A8100B0FDB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +135,6 @@
 			children = (
 				0524A31C25ED8A8000B0FDB0 /* FitnessWiki */,
 				0524A33325ED8A8100B0FDB0 /* FitnessWikiTests */,
-				0524A33E25ED8A8100B0FDB0 /* FitnessWikiUITests */,
 				0524A31B25ED8A8000B0FDB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +144,6 @@
 			children = (
 				0524A31A25ED8A8000B0FDB0 /* FitnessWiki.app */,
 				0524A33025ED8A8100B0FDB0 /* FitnessWikiTests.xctest */,
-				0524A33B25ED8A8100B0FDB0 /* FitnessWikiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,11 +151,14 @@
 		0524A31C25ED8A8000B0FDB0 /* FitnessWiki */ = {
 			isa = PBXGroup;
 			children = (
+				0524A40025ED965000B0FDB0 /* SceneDelegate.swift */,
 				0524A31D25ED8A8000B0FDB0 /* AppDelegate.swift */,
-				0524A31F25ED8A8000B0FDB0 /* SceneDelegate.swift */,
-				0524A32125ED8A8000B0FDB0 /* ViewController.swift */,
+				0524A37325ED8B1900B0FDB0 /* ExercisesList */,
+				0524A38725ED8B1900B0FDB0 /* Extensions */,
+				0524A36925ED8B0F00B0FDB0 /* Networking */,
+				0524A36425ED8B0200B0FDB0 /* Assets.xcassets */,
 				0524A32325ED8A8000B0FDB0 /* Main.storyboard */,
-				0524A32625ED8A8100B0FDB0 /* Assets.xcassets */,
+				0524A35C25ED8AEC00B0FDB0 /* Localizable.strings */,
 				0524A32825ED8A8100B0FDB0 /* LaunchScreen.storyboard */,
 				0524A32B25ED8A8100B0FDB0 /* Info.plist */,
 			);
@@ -113,19 +168,144 @@
 		0524A33325ED8A8100B0FDB0 /* FitnessWikiTests */ = {
 			isa = PBXGroup;
 			children = (
+				0524A3DB25ED8C1200B0FDB0 /* ExerciseListReducerTests */,
+				0524A3DD25ED8C1200B0FDB0 /* ExercisesRepositoryTests */,
+				0524A3DF25ED8C1200B0FDB0 /* Helpers */,
+				0524A3CB25ED8BFF00B0FDB0 /* PagingTests */,
+				0524A3C825ED8BFF00B0FDB0 /* RequestMocking */,
+				0524A3CD25ED8BFF00B0FDB0 /* WebRepositoryTests */,
 				0524A33425ED8A8100B0FDB0 /* FitnessWikiTests.swift */,
 				0524A33625ED8A8100B0FDB0 /* Info.plist */,
 			);
 			path = FitnessWikiTests;
 			sourceTree = "<group>";
 		};
-		0524A33E25ED8A8100B0FDB0 /* FitnessWikiUITests */ = {
+		0524A36925ED8B0F00B0FDB0 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				0524A33F25ED8A8100B0FDB0 /* FitnessWikiUITests.swift */,
-				0524A34125ED8A8100B0FDB0 /* Info.plist */,
+				0524A36A25ED8B0F00B0FDB0 /* APICall.swift */,
+				0524A36B25ED8B0F00B0FDB0 /* WebRepository.swift */,
+				0524A36C25ED8B0F00B0FDB0 /* ExercisesWebRepository.swift */,
 			);
-			path = FitnessWikiUITests;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0524A37325ED8B1900B0FDB0 /* ExercisesList */ = {
+			isa = PBXGroup;
+			children = (
+				0524A37425ED8B1900B0FDB0 /* Models */,
+				0524A37A25ED8B1900B0FDB0 /* ExercisesViewController.swift */,
+				0524A37B25ED8B1900B0FDB0 /* Views */,
+				0524A38125ED8B1900B0FDB0 /* Redux */,
+			);
+			path = ExercisesList;
+			sourceTree = "<group>";
+		};
+		0524A37425ED8B1900B0FDB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0524A37525ED8B1900B0FDB0 /* ListingData.swift */,
+				0524A37625ED8B1900B0FDB0 /* Paging.swift */,
+				0524A37725ED8B1900B0FDB0 /* Exercise.swift */,
+				0524A37825ED8B1900B0FDB0 /* Filter.swift */,
+				0524A37925ED8B1900B0FDB0 /* PageData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0524A37B25ED8B1900B0FDB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0524A37C25ED8B1900B0FDB0 /* Models */,
+				0524A37F25ED8B1900B0FDB0 /* ExerciseViewCell.swift */,
+				0524A38025ED8B1900B0FDB0 /* SupplimentaryViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0524A37C25ED8B1900B0FDB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0524A37D25ED8B1900B0FDB0 /* FilterEquipment.swift */,
+				0524A37E25ED8B1900B0FDB0 /* ExerciseViewData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0524A38125ED8B1900B0FDB0 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				0524A38225ED8B1900B0FDB0 /* ExerciseListReducer.swift */,
+				0524A38325ED8B1900B0FDB0 /* ExerciseListAction.swift */,
+				0524A38425ED8B1900B0FDB0 /* ExercisesListState.swift */,
+				0524A38525ED8B1900B0FDB0 /* Store.swift */,
+				0524A38625ED8B1900B0FDB0 /* ExerciseListMiddleware.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		0524A38725ED8B1900B0FDB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0524A38825ED8B1900B0FDB0 /* StringExtensions.swift */,
+				0524A38925ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift */,
+				0524A38A25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift */,
+				0524A38B25ED8B1900B0FDB0 /* NSLayoutContraintsExtensions.swift */,
+				0524A38C25ED8B1900B0FDB0 /* Identifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0524A3C825ED8BFF00B0FDB0 /* RequestMocking */ = {
+			isa = PBXGroup;
+			children = (
+				0524A3C925ED8BFF00B0FDB0 /* MockedResponse.swift */,
+				0524A3CA25ED8BFF00B0FDB0 /* RequestMocking.swift */,
+			);
+			path = RequestMocking;
+			sourceTree = "<group>";
+		};
+		0524A3CB25ED8BFF00B0FDB0 /* PagingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0524A3CC25ED8BFF00B0FDB0 /* PagingTests.swift */,
+			);
+			path = PagingTests;
+			sourceTree = "<group>";
+		};
+		0524A3CD25ED8BFF00B0FDB0 /* WebRepositoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				0524A3CE25ED8BFF00B0FDB0 /* TestWebRepository.swift */,
+				0524A3CF25ED8BFF00B0FDB0 /* WebRepositoryTests.swift */,
+			);
+			path = WebRepositoryTests;
+			sourceTree = "<group>";
+		};
+		0524A3DB25ED8C1200B0FDB0 /* ExerciseListReducerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0524A3DC25ED8C1200B0FDB0 /* ExerciseListReducer.swift */,
+			);
+			path = ExerciseListReducerTests;
+			sourceTree = "<group>";
+		};
+		0524A3DD25ED8C1200B0FDB0 /* ExercisesRepositoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				0524A3DE25ED8C1200B0FDB0 /* ExerciseRepositoryTests.swift */,
+			);
+			path = ExercisesRepositoryTests;
+			sourceTree = "<group>";
+		};
+		0524A3DF25ED8C1200B0FDB0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0524A3E025ED8C1200B0FDB0 /* Mockdata.swift */,
+				0524A3E125ED8C1200B0FDB0 /* allExercises.json */,
+				0524A3E225ED8C1200B0FDB0 /* TestHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +324,11 @@
 			dependencies = (
 			);
 			name = FitnessWiki;
+			packageProductDependencies = (
+				0524A3A725ED8B5900B0FDB0 /* Nuke */,
+				0524A3AD25ED8B7E00B0FDB0 /* ReSwift */,
+				0524A3B325ED8B9A00B0FDB0 /* ReSwiftThunk */,
+			);
 			productName = FitnessWiki;
 			productReference = 0524A31A25ED8A8000B0FDB0 /* FitnessWiki.app */;
 			productType = "com.apple.product-type.application";
@@ -166,24 +351,6 @@
 			productReference = 0524A33025ED8A8100B0FDB0 /* FitnessWikiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0524A33A25ED8A8100B0FDB0 /* FitnessWikiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0524A34A25ED8A8100B0FDB0 /* Build configuration list for PBXNativeTarget "FitnessWikiUITests" */;
-			buildPhases = (
-				0524A33725ED8A8100B0FDB0 /* Sources */,
-				0524A33825ED8A8100B0FDB0 /* Frameworks */,
-				0524A33925ED8A8100B0FDB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0524A33D25ED8A8100B0FDB0 /* PBXTargetDependency */,
-			);
-			name = FitnessWikiUITests;
-			productName = FitnessWikiUITests;
-			productReference = 0524A33B25ED8A8100B0FDB0 /* FitnessWikiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +367,6 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 0524A31925ED8A8000B0FDB0;
 					};
-					0524A33A25ED8A8100B0FDB0 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 0524A31925ED8A8000B0FDB0;
-					};
 				};
 			};
 			buildConfigurationList = 0524A31525ED8A8000B0FDB0 /* Build configuration list for PBXProject "FitnessWiki" */;
@@ -215,13 +378,17 @@
 				Base,
 			);
 			mainGroup = 0524A31125ED8A8000B0FDB0;
+			packageReferences = (
+				0524A3A625ED8B5900B0FDB0 /* XCRemoteSwiftPackageReference "Nuke" */,
+				0524A3AC25ED8B7E00B0FDB0 /* XCRemoteSwiftPackageReference "ReSwift" */,
+				0524A3B225ED8B9A00B0FDB0 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */,
+			);
 			productRefGroup = 0524A31B25ED8A8000B0FDB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0524A31925ED8A8000B0FDB0 /* FitnessWiki */,
 				0524A32F25ED8A8100B0FDB0 /* FitnessWikiTests */,
-				0524A33A25ED8A8100B0FDB0 /* FitnessWikiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +399,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0524A32A25ED8A8100B0FDB0 /* LaunchScreen.storyboard in Resources */,
-				0524A32725ED8A8100B0FDB0 /* Assets.xcassets in Resources */,
+				0524A35D25ED8AEC00B0FDB0 /* Localizable.strings in Resources */,
+				0524A36525ED8B0200B0FDB0 /* Assets.xcassets in Resources */,
 				0524A32525ED8A8000B0FDB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,13 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0524A33925ED8A8100B0FDB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0524A3E625ED8C1200B0FDB0 /* allExercises.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +420,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0524A32225ED8A8000B0FDB0 /* ViewController.swift in Sources */,
+				0524A36F25ED8B0F00B0FDB0 /* ExercisesWebRepository.swift in Sources */,
+				0524A39025ED8B1900B0FDB0 /* Filter.swift in Sources */,
+				0524A39225ED8B1900B0FDB0 /* ExercisesViewController.swift in Sources */,
+				0524A36E25ED8B0F00B0FDB0 /* WebRepository.swift in Sources */,
 				0524A31E25ED8A8000B0FDB0 /* AppDelegate.swift in Sources */,
-				0524A32025ED8A8000B0FDB0 /* SceneDelegate.swift in Sources */,
+				0524A39C25ED8B1900B0FDB0 /* StringExtensions.swift in Sources */,
+				0524A36D25ED8B0F00B0FDB0 /* APICall.swift in Sources */,
+				0524A39F25ED8B1900B0FDB0 /* NSLayoutContraintsExtensions.swift in Sources */,
+				0524A38E25ED8B1900B0FDB0 /* Paging.swift in Sources */,
+				0524A39525ED8B1900B0FDB0 /* ExerciseViewCell.swift in Sources */,
+				0524A39325ED8B1900B0FDB0 /* FilterEquipment.swift in Sources */,
+				0524A39B25ED8B1900B0FDB0 /* ExerciseListMiddleware.swift in Sources */,
+				0524A39725ED8B1900B0FDB0 /* ExerciseListReducer.swift in Sources */,
+				0524A39125ED8B1900B0FDB0 /* PageData.swift in Sources */,
+				0524A39925ED8B1900B0FDB0 /* ExercisesListState.swift in Sources */,
+				0524A3A025ED8B1900B0FDB0 /* Identifier.swift in Sources */,
+				0524A39425ED8B1900B0FDB0 /* ExerciseViewData.swift in Sources */,
+				0524A39E25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift in Sources */,
+				0524A39D25ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift in Sources */,
+				0524A38D25ED8B1900B0FDB0 /* ListingData.swift in Sources */,
+				0524A40625ED965300B0FDB0 /* SceneDelegate.swift in Sources */,
+				0524A39A25ED8B1900B0FDB0 /* Store.swift in Sources */,
+				0524A39825ED8B1900B0FDB0 /* ExerciseListAction.swift in Sources */,
+				0524A39625ED8B1900B0FDB0 /* SupplimentaryViewCell.swift in Sources */,
+				0524A38F25ED8B1900B0FDB0 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +453,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0524A33525ED8A8100B0FDB0 /* FitnessWikiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0524A33725ED8A8100B0FDB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0524A34025ED8A8100B0FDB0 /* FitnessWikiUITests.swift in Sources */,
+				0524A3E725ED8C1200B0FDB0 /* TestHelpers.swift in Sources */,
+				0524A3D225ED8BFF00B0FDB0 /* PagingTests.swift in Sources */,
+				0524A3D125ED8BFF00B0FDB0 /* RequestMocking.swift in Sources */,
+				0524A3E425ED8C1200B0FDB0 /* ExerciseRepositoryTests.swift in Sources */,
+				0524A3D325ED8BFF00B0FDB0 /* TestWebRepository.swift in Sources */,
+				0524A3D425ED8BFF00B0FDB0 /* WebRepositoryTests.swift in Sources */,
+				0524A3E525ED8C1200B0FDB0 /* Mockdata.swift in Sources */,
+				0524A3E325ED8C1200B0FDB0 /* ExerciseListReducer.swift in Sources */,
+				0524A3D025ED8BFF00B0FDB0 /* MockedResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +472,6 @@
 			isa = PBXTargetDependency;
 			target = 0524A31925ED8A8000B0FDB0 /* FitnessWiki */;
 			targetProxy = 0524A33125ED8A8100B0FDB0 /* PBXContainerItemProxy */;
-		};
-		0524A33D25ED8A8100B0FDB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0524A31925ED8A8000B0FDB0 /* FitnessWiki */;
-			targetProxy = 0524A33C25ED8A8100B0FDB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,46 +693,6 @@
 			};
 			name = Release;
 		};
-		0524A34B25ED8A8100B0FDB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9ZFTYE6XQ;
-				INFOPLIST_FILE = FitnessWikiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.andreiMirzac.FitnessWikiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FitnessWiki;
-			};
-			name = Debug;
-		};
-		0524A34C25ED8A8100B0FDB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9ZFTYE6XQ;
-				INFOPLIST_FILE = FitnessWikiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.andreiMirzac.FitnessWikiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FitnessWiki;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,16 +723,52 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0524A34A25ED8A8100B0FDB0 /* Build configuration list for PBXNativeTarget "FitnessWikiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0524A34B25ED8A8100B0FDB0 /* Debug */,
-				0524A34C25ED8A8100B0FDB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0524A3A625ED8B5900B0FDB0 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.3.0;
+			};
+		};
+		0524A3AC25ED8B7E00B0FDB0 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		0524A3B225ED8B9A00B0FDB0 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift-Thunk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0524A3A725ED8B5900B0FDB0 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0524A3A625ED8B5900B0FDB0 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		0524A3AD25ED8B7E00B0FDB0 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0524A3AC25ED8B7E00B0FDB0 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		0524A3B325ED8B9A00B0FDB0 /* ReSwiftThunk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0524A3B225ED8B9A00B0FDB0 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */;
+			productName = ReSwiftThunk;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0524A31225ED8A8000B0FDB0 /* Project object */;
 }
