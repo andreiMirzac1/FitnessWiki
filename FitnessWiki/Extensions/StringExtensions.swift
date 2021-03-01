@@ -1,6 +1,6 @@
 //
 //  StringExtensions.swift
-//  MyFitnessApp
+//  FitnessWiki
 //
 //  Created by Andrei Mirzac on 23/12/2020.
 //

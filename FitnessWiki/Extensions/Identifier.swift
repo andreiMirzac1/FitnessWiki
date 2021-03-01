@@ -1,6 +1,6 @@
 //
 //  Identifier.swift
-//  MyFitnessApp
+//  FitnessWiki
 //
 //  Created by Andrei Mirzac on 11/02/2021.
 //

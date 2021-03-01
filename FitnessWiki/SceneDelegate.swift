@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  MyFitnessApp
+//  FitnessWiki
 //
 //  Created by Andrei Mirzac on 22/12/2020.
 //

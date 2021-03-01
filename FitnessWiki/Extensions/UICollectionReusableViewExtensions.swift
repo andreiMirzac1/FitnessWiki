@@ -1,6 +1,6 @@
 //
 //  UICollectionReusableViewExtensions.swift
-//  MyFitnessApp
+//  FitnessWiki
 //
 //  Created by Andrei Mirzac on 25/01/2021.
 //

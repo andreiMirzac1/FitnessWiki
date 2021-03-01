@@ -1,6 +1,6 @@
 //
 //  ExercisesWebRepository.swift
-//  MyFitnessApp
+//  FitnessWiki
 //
 //  Created by Andrei Mirzac on 17/01/2021.
 //

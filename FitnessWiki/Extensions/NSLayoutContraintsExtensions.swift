@@ -1,6 +1,6 @@
 //
 //  NSLayoutContraints.swift
-//  MyFitnessApp
+//  FitnessWiki
 //
 //  Created by Andrei Mirzac on 24/01/2021.
 //

@@ -1,6 +1,6 @@
 //
 //  Networking.swift
-//  MyFitnessAppTests
+//  FitnessWikiTests
 //
 //  Created by Andrei Mirzac on 07/02/2021.
 //

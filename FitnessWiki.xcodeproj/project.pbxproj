@@ -193,8 +193,8 @@
 		0524A37325ED8B1900B0FDB0 /* ExercisesList */ = {
 			isa = PBXGroup;
 			children = (
-				0524A37425ED8B1900B0FDB0 /* Models */,
 				0524A37A25ED8B1900B0FDB0 /* ExercisesViewController.swift */,
+				0524A37425ED8B1900B0FDB0 /* Models */,
 				0524A37B25ED8B1900B0FDB0 /* Views */,
 				0524A38125ED8B1900B0FDB0 /* Redux */,
 			);

@@ -1,6 +1,6 @@
 //
 //  ExerciseRepositoryTests.swift
-//  MyFitnessAppTests
+//  FitnessWikiTests
 //
 //  Created by Andrei Mirzac on 09/02/2021.
 //
