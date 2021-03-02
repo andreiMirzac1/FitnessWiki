@@ -28,7 +28,7 @@ extension NetworkError: LocalizedError {
 
 
 protocol APICall {
-    var path: String? { get } //TODO: Sort the path so it's not nil
+    var path: String? { get }
     var method: String { get }
     var headers: [String: String]? { get }
     var queryItems: [URLQueryItem] { get }

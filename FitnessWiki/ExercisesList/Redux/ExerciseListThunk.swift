@@ -1,7 +1,5 @@
 //
-//  Thunk.swift
-//  
-//
+//  ExerciseListThunk.swift
 //  Created by Andrei Mirzac on 02/02/2021.
 //
 
@@ -9,7 +7,7 @@ import Foundation
 import ReSwift
 import ReSwiftThunk
 
-func fetchExercises(service: ExercisesWebRepository = RealExercisesWebRepository(baseURL: "https://wger.de")) -> Thunk<ExerciseListState> {
+func fetchExercises( service: ExercisesWebRepository = RealExercisesWebRepository(baseURL: "https://wger.de")) -> Thunk<ExerciseListState> {
     return Thunk<ExerciseListState> { dispatch, getState in
         guard let state = getState(), !state.isLoading else {
             return

@@ -117,10 +117,7 @@ class ExercisesViewController: UIViewController {
         var snapshot = NSDiffableDataSourceSnapshot<Section, Exercise>()
         snapshot.appendSections(Section.allCases)
         snapshot.appendItems(exercises, toSection: .main)
-        DispatchQueue.main.async {
-            self.dataSource?.apply(snapshot)
-        }
-
+        dataSource?.apply(snapshot)
     }
 }
 
@@ -134,7 +131,7 @@ extension ExercisesViewController: StoreSubscriber {
         default:
             break
         }
-        
+
         reloadData(state.paging?.values ?? [])
         state.isLoading ? spinner?.startAnimating() : spinner?.stopAnimating()
     }

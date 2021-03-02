@@ -29,7 +29,7 @@
 		0524A39825ED8B1900B0FDB0 /* ExerciseListAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38325ED8B1900B0FDB0 /* ExerciseListAction.swift */; };
 		0524A39925ED8B1900B0FDB0 /* ExercisesListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38425ED8B1900B0FDB0 /* ExercisesListState.swift */; };
 		0524A39A25ED8B1900B0FDB0 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38525ED8B1900B0FDB0 /* Store.swift */; };
-		0524A39B25ED8B1900B0FDB0 /* ExerciseListMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38625ED8B1900B0FDB0 /* ExerciseListMiddleware.swift */; };
+		0524A39B25ED8B1900B0FDB0 /* ExerciseListThunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38625ED8B1900B0FDB0 /* ExerciseListThunk.swift */; };
 		0524A39C25ED8B1900B0FDB0 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38825ED8B1900B0FDB0 /* StringExtensions.swift */; };
 		0524A39D25ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38925ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift */; };
 		0524A39E25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A38A25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift */; };
@@ -88,7 +88,7 @@
 		0524A38325ED8B1900B0FDB0 /* ExerciseListAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListAction.swift; sourceTree = "<group>"; };
 		0524A38425ED8B1900B0FDB0 /* ExercisesListState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesListState.swift; sourceTree = "<group>"; };
 		0524A38525ED8B1900B0FDB0 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		0524A38625ED8B1900B0FDB0 /* ExerciseListMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListMiddleware.swift; sourceTree = "<group>"; };
+		0524A38625ED8B1900B0FDB0 /* ExerciseListThunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListThunk.swift; sourceTree = "<group>"; };
 		0524A38825ED8B1900B0FDB0 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		0524A38925ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionReusableViewExtensions.swift; sourceTree = "<group>"; };
 		0524A38A25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
@@ -236,7 +236,7 @@
 				0524A38325ED8B1900B0FDB0 /* ExerciseListAction.swift */,
 				0524A38425ED8B1900B0FDB0 /* ExercisesListState.swift */,
 				0524A38525ED8B1900B0FDB0 /* Store.swift */,
-				0524A38625ED8B1900B0FDB0 /* ExerciseListMiddleware.swift */,
+				0524A38625ED8B1900B0FDB0 /* ExerciseListThunk.swift */,
 			);
 			path = Redux;
 			sourceTree = "<group>";
@@ -428,7 +428,7 @@
 				0524A38E25ED8B1900B0FDB0 /* Paging.swift in Sources */,
 				0524A39525ED8B1900B0FDB0 /* ExerciseViewCell.swift in Sources */,
 				0524A39325ED8B1900B0FDB0 /* FilterEquipment.swift in Sources */,
-				0524A39B25ED8B1900B0FDB0 /* ExerciseListMiddleware.swift in Sources */,
+				0524A39B25ED8B1900B0FDB0 /* ExerciseListThunk.swift in Sources */,
 				0524A39725ED8B1900B0FDB0 /* ExerciseListReducer.swift in Sources */,
 				0524A39125ED8B1900B0FDB0 /* PageData.swift in Sources */,
 				0524A39925ED8B1900B0FDB0 /* ExercisesListState.swift in Sources */,
