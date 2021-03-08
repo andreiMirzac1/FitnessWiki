@@ -1,4 +1,5 @@
 # FitnessWiki
+https://travis-ci.com/andreiMirzac1/FitnessWiki.svg?branch=main
 
 A small demo project showcasing the Redux architecture using ReSwift and ReThunk.  The app currently uses  [wger]( https://wger.de/) api to fetch and display exercises.
 
