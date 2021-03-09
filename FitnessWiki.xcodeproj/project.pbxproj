@@ -48,7 +48,7 @@
 		0524A3E525ED8C1200B0FDB0 /* Mockdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3E025ED8C1200B0FDB0 /* Mockdata.swift */; };
 		0524A3E625ED8C1200B0FDB0 /* allExercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 0524A3E125ED8C1200B0FDB0 /* allExercises.json */; };
 		0524A3E725ED8C1200B0FDB0 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A3E225ED8C1200B0FDB0 /* TestHelpers.swift */; };
-		0524A40625ED965300B0FDB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524A40025ED965000B0FDB0 /* SceneDelegate.swift */; };
+		05B5D5CB25F829B7002A7E90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B5D5CA25F829B7002A7E90 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +104,7 @@
 		0524A3E025ED8C1200B0FDB0 /* Mockdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mockdata.swift; sourceTree = "<group>"; };
 		0524A3E125ED8C1200B0FDB0 /* allExercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allExercises.json; sourceTree = "<group>"; };
 		0524A3E225ED8C1200B0FDB0 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
-		0524A40025ED965000B0FDB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = FitnessWiki/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		05B5D5CA25F829B7002A7E90 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,16 +149,11 @@
 		0524A31C25ED8A8000B0FDB0 /* FitnessWiki */ = {
 			isa = PBXGroup;
 			children = (
-				0524A40025ED965000B0FDB0 /* SceneDelegate.swift */,
-				0524A31D25ED8A8000B0FDB0 /* AppDelegate.swift */,
+				05B5D5C725F829A5002A7E90 /* AppDelegate */,
 				0524A37325ED8B1900B0FDB0 /* ExercisesList */,
 				0524A38725ED8B1900B0FDB0 /* Extensions */,
 				0524A36925ED8B0F00B0FDB0 /* Networking */,
-				0524A36425ED8B0200B0FDB0 /* Assets.xcassets */,
-				0524A32325ED8A8000B0FDB0 /* Main.storyboard */,
-				0524A35C25ED8AEC00B0FDB0 /* Localizable.strings */,
-				0524A32825ED8A8100B0FDB0 /* LaunchScreen.storyboard */,
-				0524A32B25ED8A8100B0FDB0 /* Info.plist */,
+				05B5D5C225F828FF002A7E90 /* Resources */,
 			);
 			path = FitnessWiki;
 			sourceTree = "<group>";
@@ -305,6 +300,27 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		05B5D5C225F828FF002A7E90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0524A36425ED8B0200B0FDB0 /* Assets.xcassets */,
+				0524A32325ED8A8000B0FDB0 /* Main.storyboard */,
+				0524A32825ED8A8100B0FDB0 /* LaunchScreen.storyboard */,
+				0524A32B25ED8A8100B0FDB0 /* Info.plist */,
+				0524A35C25ED8AEC00B0FDB0 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		05B5D5C725F829A5002A7E90 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				05B5D5CA25F829B7002A7E90 /* SceneDelegate.swift */,
+				0524A31D25ED8A8000B0FDB0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -437,7 +453,7 @@
 				0524A39E25ED8B1900B0FDB0 /* UIViewControllerExtensions.swift in Sources */,
 				0524A39D25ED8B1900B0FDB0 /* UICollectionReusableViewExtensions.swift in Sources */,
 				0524A38D25ED8B1900B0FDB0 /* ListingData.swift in Sources */,
-				0524A40625ED965300B0FDB0 /* SceneDelegate.swift in Sources */,
+				05B5D5CB25F829B7002A7E90 /* SceneDelegate.swift in Sources */,
 				0524A39A25ED8B1900B0FDB0 /* Store.swift in Sources */,
 				0524A39825ED8B1900B0FDB0 /* ExerciseListAction.swift in Sources */,
 				0524A39625ED8B1900B0FDB0 /* SupplimentaryViewCell.swift in Sources */,
@@ -614,7 +630,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F9ZFTYE6XQ;
-				INFOPLIST_FILE = FitnessWiki/Info.plist;
+				INFOPLIST_FILE = FitnessWiki/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +649,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F9ZFTYE6XQ;
-				INFOPLIST_FILE = FitnessWiki/Info.plist;
+				INFOPLIST_FILE = FitnessWiki/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
