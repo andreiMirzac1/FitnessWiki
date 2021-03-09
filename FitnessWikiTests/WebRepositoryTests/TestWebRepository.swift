@@ -11,7 +11,6 @@ import Foundation
 class TestWebRepository: WebRepository {
     let session: URLSession = .mockedResponses
     let baseURL: String = "https://test.com"
-    let queue: DispatchQueue = DispatchQueue(label: "test")
     
     func load(endpoint: TestWebRepository.API, completion: @escaping (Result<TestData, Error>) -> Void) {
         call(endpoint: endpoint, completion: completion)

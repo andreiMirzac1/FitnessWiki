@@ -17,7 +17,6 @@ class RealExercisesWebRepository: ExercisesWebRepository {
 
     var baseURL: String
 
-    var queue: DispatchQueue = DispatchQueue(label: "backgroundQueue")
 
     init(session: URLSession = URLSession.shared, baseURL: String) {
         self.session = session

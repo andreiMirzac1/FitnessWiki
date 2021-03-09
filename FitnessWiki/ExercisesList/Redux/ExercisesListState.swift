@@ -21,3 +21,9 @@ struct ExerciseListState: StateType {
         return paging?.values ?? []
     }
 }
+
+enum ViewState<Data> {
+    case loading
+    case success(Data)
+    case failure(Error)
+}

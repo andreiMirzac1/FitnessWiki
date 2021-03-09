@@ -10,7 +10,6 @@ import Foundation
 protocol WebRepository {
     var session: URLSession { get }
     var baseURL: String { get }
-    var queue: DispatchQueue { get }
 }
 
 extension WebRepository {
