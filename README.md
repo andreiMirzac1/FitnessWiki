@@ -11,6 +11,8 @@ A small demo project showcasing the Redux architecture using ReSwift and ReThunk
 
 - List Pagination.
 
+- UICollectionView Compositional Layout With Diffable Data Source.
+
 - Filter exercises by equipment.
 
 ## Dependencies
