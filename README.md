@@ -1,5 +1,5 @@
 # FitnessWiki
-[![Build Status](https://travis-ci.com/andreiMirzac1/FitnessWiki.svg?branch=main)](https://travis-ci.com/andreiMirzac1/FitnessWiki)
+[![Build Status](https://travis-ci.com/andreiMirzac1/FitnessWiki.svg?branch=main)](https://travis-ci.com/andreiMirzac1/FitnessWiki) [![codecov](https://codecov.io/gh/andreiMirzac1/FitnessWiki/branch/main/graph/badge.svg?token=QH0O2P6JHH)](https://codecov.io/gh/andreiMirzac1/FitnessWiki)
 
 A small demo project showcasing the Redux architecture using ReSwift and ReThunk.  The app currently uses  [wger]( https://wger.de/) api to fetch and display exercises.
 
